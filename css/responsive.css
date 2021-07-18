@@ -1,0 +1,558 @@
+@media (max-width:991px) {
+    .container{
+        padding: 0 35px;
+    }
+    .home-intro{
+        padding: 60px 58px 0 58px;
+        border-radius: 15px;
+    }
+    .home-intro-page{
+        margin: 0 auto;
+        padding-left: 0;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+    .home-intro-text{
+        margin: 0 auto;
+        margin-bottom: 19px;
+    }
+    .home-intro-title{
+        max-width: 573px;
+        margin: 0 auto;
+        margin-bottom: 8px;
+    }
+    .home-intro-image {
+       margin-top: 84px;
+       height: 370px;
+       overflow: hidden;
+    }
+    .home-btn{
+        display: inline-block;
+        margin-top: 19px;
+    }
+    .home-intro:after{
+        display: none;
+    }
+    .profession-item img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 15px;
+    }
+   .profession-page{
+       width: 100%;
+       transform: translateY(30%);
+   }
+   .profession{
+       padding: 120px 0;
+   }
+   .development-page{
+       display: flex;
+       justify-content: center;
+       margin-bottom: 32px;
+   }
+   .development-item:after{
+       display: none;
+   }
+   .development-info{
+       text-align: start;
+       padding-left: 48px;
+   }
+   .development-text{
+       max-width: 439px;
+   }
+   .project{
+       text-align: center;   
+       padding: 57px 45px ;
+   }
+   .get-touch{
+       padding-top: 64px;
+   }
+   .get-touch-title{
+       max-width: 335px; 
+       margin: 0 auto;
+       text-align: center;
+   }
+   .get-touch-text{
+       margin: 5px auto 32px;
+       text-align: center;
+       max-width: 573px;
+   }
+   .geting{
+       text-align: center;
+   }
+   .designer{
+       margin-top: 24px;
+   }
+   /* About-page */
+   .about-main-intro:after {
+       display: none;
+   }
+   .about-intro-page{
+       order: 3;
+       padding-left: 0;
+       text-align: center;
+       padding: 32px 0 64px;
+   }
+   .about-intro-image{
+       width:100% ;
+       height: 320px ;
+       object-fit: cover ;
+       object-position: bottom ;
+       overflow: hidden;
+       background-color: white;
+   }
+   .about-default{
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        overflow: hidden;
+   }
+   .about-intro-text{
+       max-width: 573px;
+       margin: 0 auto;
+   }
+   .talent{
+       padding: 120px 0;
+   }
+   .talent-image{
+       width: 100%;
+       height: 320px;
+       object-fit: auto;
+       object-position: center;
+       overflow: hidden;
+   }
+   .talent-image img{
+       border-radius: 25px;
+       overflow: hidden;
+   }
+   .talent-page{
+       padding: 68px 0;
+       text-align: center;
+   }
+   .talent-text{
+       max-width: 572px;
+       margin: 0 auto;
+   }
+   .talent-text:not(:last-child){
+       margin-bottom: 15px;
+   }
+   .location-info:not(:last-child){
+       margin-bottom: 80px;
+   }
+   .country-location::after {
+       display: none;
+   }
+   .deal-page{
+       order: -1;
+       width:  100%;
+       height: 320px;
+       object-position: center;
+       object-fit: cover;
+       overflow: hidden;
+       background-color: white;
+   }
+   .deal-page img{
+       border-radius: 25px;
+       overflow: hidden;
+   }
+   .deal-item{
+       padding: 68px 0 94px;
+       text-align: center;
+   }
+   .deal-text{
+       max-width: 572px;
+       margin: 0 auto;
+   }
+   .get-touch{
+       margin-top: 120px;
+   }
+   .maping-one{
+       order: -3;
+       width: 100%;
+       height: 326px; 
+       object-fit: cover;
+       object-position: center;
+       overflow: hidden;
+       border-radius: 25px;
+        margin-bottom: 24px;
+   }
+   .maping{
+       margin-bottom: 24px;
+   }
+    .one{
+       order: 3;
+   }
+   .map .row{
+       margin-left: 0;
+       margin-right: 0;
+   }
+   .maping .col-md-12{
+       padding-left: 0;
+       padding-right: 0;
+   }
+   .contact-intro-form{
+       padding-left: 0;
+   } 
+    .contact-intro-page{
+       padding-left: 0;
+   }
+   .survey{
+       width: 100%;
+   }
+   .form{
+       width: 100%;
+   }
+   .contact-intro-text{
+       max-width: 100%;
+   }
+   .contact-location{
+       padding: 120px 0;
+   }
+   .contact-country-location:after {
+       display: none;
+   }
+   .contact-footer{
+       margin-top: 0;
+   }
+}
+
+@media (max-width:768px) {
+    .intro{
+        position: relative;
+    }
+    .menu-toggle{
+        display: block;
+    }
+   .nav-bar{
+        display: none;
+    }
+    .nav-link{
+        display: block;
+        text-align: start;
+        font-size: 24px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+        margin: 32px 0;
+    }
+    .nav-link:not(:first-child){
+        margin-left: 0;
+       
+    }
+    #mainNav{
+        position: absolute;
+        top:100px;
+        bottom:96px ;
+        right: 24px;
+        left: 24px;
+        z-index: 2;
+    }
+    .header .row{
+        justify-content: space-between;
+    }
+    /* .header.on .nav-bar{
+
+    } */
+    .header.on:after{
+        margin-top: 50px;
+        content: ' ';
+        position: absolute;
+        top: 96px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 300px;
+        background-color: #1D1C1E;
+        z-index: 1;
+    }
+    .header-bar{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    .header .container{
+        padding: 0 24px;
+    }
+    .menu-toggle{
+        position: absolute;
+        right: 4px;
+        bottom: 4px;
+    }
+    .menu-toggle{
+        display: inline-block;
+        margin: 0;
+        border: transparent;
+        background-color: transparent;
+    }
+    .menu-toggle.close{
+        display: none;
+    }
+    .header.on .close{
+         display: block;
+    }
+    .header.on .open{
+        display: none;
+    }
+    .home-intro{
+        padding: 60px 58px 0 58px;
+        border-radius: 15px;
+    }
+    .home-intro-page{
+        margin: 0 auto;
+        padding-left: 0;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+    .home-intro-text{
+        margin: 0 auto;
+        margin-bottom: 19px;
+    }
+    .home-intro-title{
+        max-width: 573px;
+        margin: 0 auto;
+        margin-bottom: 8px;
+    }
+    .home-intro-image {
+       margin-top: 84px;
+       height: 370px;
+       overflow: hidden;
+    }
+    .home-btn{
+        display: inline-block;
+        margin-top: 19px;
+    }
+    .home-intro:after{
+        display: none;
+    }
+    .profession-item img{
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 15px;
+    }
+    .profession-item{
+        height: 250px;
+    }
+   .profession-page{
+       width: 100%;
+       transform: translateY(30%);
+   }
+   .profession{
+       padding: 120px 0;
+   }
+   .development-page{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-bottom: 32px;
+   }
+   .development-item:after{
+       display: none;
+   }
+   .about-intro-page{
+       padding: 64px 58px;
+   }
+   .talent-page{
+       padding: 68px 58px;
+   }
+   .deal-item{
+       padding: 94px 58px;
+   }
+   .footer-menu li:not(:last-child){
+       margin-right: 0;
+   }
+    .footer .col-lg-4{
+        width: 33.3%;
+    }
+    .map .container,.get-touch .container,.footer.container,.header .container{
+        padding: 0 39px;
+    }
+    .map-page,.maping-one,.map-page-second,.map-page-three{
+        border-radius: none;
+    }
+    .map-page-second{
+        border-bottom-right-radius: none;
+        border-top-left-radius: none;
+    }
+    .maping-one{
+        margin-bottom: 0;
+    }
+    .map-page ,.map-page-second ,.map-page-three {
+        padding-left: 75px;
+    }
+    .map-page .col-md-6,.map-page-second .col-md-6,.map-page-three .col-md-6{
+        width: 50%;
+    }
+    .maping{
+        margin-bottom: 120px;
+    }
+    .map-title{
+        padding-left: 12px;
+    }
+    .contact-header .container{
+        padding: 0 39px;
+    }
+    .contact-main-intro{
+        padding:71px 58px ;
+    }
+    .survey{
+        max-width: 100%;
+    }
+    .contact-intro-form{
+        padding-left: 0px;
+        display: flex;
+        justify-content: flex-start !important;
+    }
+    form{
+        width: 100%;
+    }
+    .contact-intro-text{
+        width: 100%;
+    }
+}
+@media (max-width:565px) {
+    .intro .container{
+        padding: 0;
+    }
+    .development-page{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .home-intro-image img{
+        width: 100%;
+    }
+    .home-intro-title{
+        font-size: 32px;
+        margin-bottom: 14px;
+    }
+    .development-info{
+        text-align: center;
+        padding-left: 0;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer .row{
+        margin-right: 0;
+    }
+    .footer .col-sm-12{
+        padding-right: 0;
+    }
+    .footer-logo{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 32px;
+    }
+    .footer .container{
+        padding: 0;
+    }
+    .footer-header-menu{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-header{
+        display: flex;
+        justify-content: center;
+        order: 2;
+    }
+   .footer-header-menu li:not(:last-child){
+        margin-right: 0;
+        display: inline-block;
+    } 
+    .footer-header-menu li{
+        margin-top:32px!important ;
+    }
+    .footer-menu{
+        margin-top: 40px;
+    }
+    .footer-menu li:not(:last-child){
+        margin-right: 0;
+    }
+    .footer-line-first{
+        display: block;
+        color: #FFFFFF;
+        margin: 0;
+    }
+    .footer-line{
+        display: none;
+    }
+    .footer-page{
+        margin: 0;
+    }
+    .footer-icons{
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .about-intro-page{
+       padding: 80px 24px;
+    }
+    .about-intro .container,.talent .container,.deal .container{
+        padding: 0;
+    }
+    .deal-page,.about-intro-image,.talent-image{
+        padding: 0;
+    }
+    .about-intro .row,.talent .row,.deal .row{
+        margin: 0;
+    }
+    .footer .col-sm-12{
+        width: 100%;
+    }
+    .get-touch-title{
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .project{
+        padding: 64px 24px;
+    }
+    .about-main-intro,.article-talent,.about-default,.article-deal{
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    .about-intro-image{
+        height: 310px;
+    }
+    .talent{
+        padding: 0 0 120px;
+    }
+    .talent-image img,.deal-page img,.about-default{
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .get-touch .container{
+        padding: 0 24px;
+    }
+    .about-intro-page,.talent-page,.deal-item{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .map .container,.get-touch .container,.footer.container,.header .container{
+        padding: 0 ;
+    }
+    .location-header{
+        padding-left: 24px ;
+        padding-right: 24px;
+    }
+    .map-page .col-md-6,.map-page-second .col-md-6,.map-page-three .col-md-6{
+        width: 100%;
+    }
+    .map-page ,.map-page-second ,.map-page-three {
+        padding-left: 0;
+        text-align: center;
+    }
+    .maping{
+        margin-bottom: 40px;
+    }
+    .contact-main-intro{
+        padding: 72px 24px;
+        text-align: center;
+    }
+    .contact-intro .container{
+        padding: 0;
+    }
+    .contact-intro-title{
+        font-size: 32px;
+        line-height: 36px;
+    }
+}
